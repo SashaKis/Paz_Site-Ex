@@ -138,18 +138,23 @@ body {
 .read-more a{
   float: left;
   color:white;
-  background: url(../images/read_more_white.png) no-repeat left center;
+  /*background: url(images/read_more_white.png) no-repeat left center;*/
 }
 .read-more a:hover{
   color: blue;
-  background: url(images/read_more_blue.png) no-repeat left center;
+  /*background: url(images/read_more_blue.png) no-repeat left center;*/
 }
 .read-more img{
   width: 8px;
   padding-right: 2px;
 }
-/*
-a.readMore.white { background: url(../images/read_more_white.png) no-repeat left center; }
-a.readMore.yellow { background: url(../images/read_more_yellow.png) no-repeat left center; }
-a.readMore:hover { background: url(../images/read_more_blue.png) no-repeat left center; }
-*/
+.with-pic{
+  background: url(images/cube_bg.png);
+  background-repeat: no-repeat;
+  height: 226px;
+}
+.with-pic h3{
+  margin-top: 6px;
+  margin-right: 30px;
+  font-size: 14px;
+}
