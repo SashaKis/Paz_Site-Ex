@@ -87,6 +87,29 @@ body {
 }
 .right-side{
   position: absolute;
-  direction: ltr;
-  text-align: left;
+  right: 810px;
+}
+.change-button{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.row{
+  width: 900px;
+  margin: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.three_img{
+  width: 33.3%;
+}
+.three_img img {
+  width: 100%;
 }
