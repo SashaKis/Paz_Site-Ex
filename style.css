@@ -10,7 +10,7 @@ body {
 }
 
   .my-border {
-    border: 1px solid black;
+    border: 1px solid grey;
   } 
 
 .main-box{
@@ -38,6 +38,7 @@ body {
   .horizontal ul li {
     display: inline;
   }
+
   .horizontal ul li a {
     text-decoration: none;
     color: white;
@@ -96,11 +97,11 @@ body {
 }
 .column {
   float: left;
-  padding: 10px;
+  padding: 5px;
 }
 .row{
   width: 900px;
-  margin: auto;
+  margin: 20px auto;
 }
 .row:after {
   content: "";
@@ -108,8 +109,40 @@ body {
   clear: both;
 }
 .three_img{
+  position: relative;
   width: 33.3%;
 }
 .three_img img {
   width: 100%;
+  border-bottom-right-radius: 20px;
+}
+.text-place{
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 80%;
+  border-bottom-right-radius: 20px;
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: white;
+}
+.text-place h4 {
+  margin: 0;
+  padding: 5px;
+}
+.text-place p {
+  margin: 5px 0 5px 0;
+  padding: 0 10px 0 10px;
+}
+.read-more a{
+  float: left;
+  color:white;
+}
+.read-more a:hover{
+  color: blue;
+}
+.read-more img{
+  width: 8px;
+  padding-right: 2px;
 }
