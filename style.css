@@ -110,7 +110,7 @@ body {
 }
 .three_img{
   position: relative;
-  width: 33.3%;
+  width: 33.33334%;
 }
 .three_img img {
   width: 100%;
@@ -138,11 +138,18 @@ body {
 .read-more a{
   float: left;
   color:white;
+  background: url(../images/read_more_white.png) no-repeat left center;
 }
 .read-more a:hover{
   color: blue;
+  background: url(images/read_more_blue.png) no-repeat left center;
 }
 .read-more img{
   width: 8px;
   padding-right: 2px;
 }
+/*
+a.readMore.white { background: url(../images/read_more_white.png) no-repeat left center; }
+a.readMore.yellow { background: url(../images/read_more_yellow.png) no-repeat left center; }
+a.readMore:hover { background: url(../images/read_more_blue.png) no-repeat left center; }
+*/
