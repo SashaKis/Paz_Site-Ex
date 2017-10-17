@@ -85,3 +85,8 @@ body {
   top: 30px;
   right: 260px;
 }
+.right-side{
+  position: absolute;
+  direction: ltr;
+  text-align: left;
+}
