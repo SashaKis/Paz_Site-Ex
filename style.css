@@ -113,8 +113,7 @@ body {
   position: relative;
   width: 33.33334%;
 }
-.three_img img {
-  /*width: 100%;*/
+.three_img_s {
   border-bottom-right-radius: 20px;
 }
 .text-place{
@@ -138,11 +137,9 @@ body {
 .read-more a{
   float: left;
   color:white;
-  /*background: url(images/read_more_white.png) no-repeat left center;*/
 }
 .read-more a:hover{
   color: blue;
-  /*background: url(images/read_more_blue.png) no-repeat left center;*/
 }
 .read-more img{
   width: 8px;
@@ -160,28 +157,32 @@ body {
   font-size: 14px;
 }
 
-.with-pic img{
+.with-pic-img{
   position: absolute;
   left: 5px;
 }
+
 .pic-center img{
   left: 20px;
   top:65px;
 }
-.read-more1 a{
-  display: block;
- float: left;
- bottom: 0;
+.read-more1{
+  position: relative;
+  direction:ltr;
+  text-align: left;
+  border: 1px solid black;
+}
+.cent-pic{
+  border: 1px solid black;
+ 
+}
+
+.link-img {
+  position: absolute;
   color: black;
-  border: 2px solid black;
+  
 }
-.read-more1 img{
-  border: 2px solid black;
-  bottom: 0;
-  z-index: -1;
-  width: 8px;
-  padding-right: 2px;
-}
+
 .read-more1 a:hover{
   color: blue;
 }
