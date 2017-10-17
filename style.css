@@ -7,6 +7,7 @@ body {
     text-align: right;
     margin: 0 auto;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
   .my-border {
@@ -113,7 +114,7 @@ body {
   width: 33.33334%;
 }
 .three_img img {
-  width: 100%;
+  /*width: 100%;*/
   border-bottom-right-radius: 20px;
 }
 .text-place{
@@ -123,7 +124,6 @@ body {
   width: 80%;
   border-bottom-right-radius: 20px;
   background-color: grey;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: white;
 }
@@ -149,12 +149,39 @@ body {
   padding-right: 2px;
 }
 .with-pic{
-  background: url(images/cube_bg.png);
+  background: url(images/small_cube_bg.png);
   background-repeat: no-repeat;
+  z-index: 100;
   height: 226px;
 }
 .with-pic h3{
   margin-top: 6px;
   margin-right: 30px;
   font-size: 14px;
+}
+
+.with-pic img{
+  position: absolute;
+  left: 5px;
+}
+.pic-center img{
+  left: 20px;
+  top:65px;
+}
+.read-more1 a{
+  display: block;
+ float: left;
+ bottom: 0;
+  color: black;
+  border: 2px solid black;
+}
+.read-more1 img{
+  border: 2px solid black;
+  bottom: 0;
+  z-index: -1;
+  width: 8px;
+  padding-right: 2px;
+}
+.read-more1 a:hover{
+  color: blue;
 }
