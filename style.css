@@ -161,28 +161,30 @@ body {
   position: absolute;
   left: 5px;
 }
-
+/*
 .pic-center img{
   left: 20px;
   top:65px;
 }
+*/
 .read-more1{
   position: relative;
   direction:ltr;
   text-align: left;
-  border: 1px solid black;
+  top: 140px;
+  left:20px;
 }
 .cent-pic{
-  border: 1px solid black;
- 
+  position: absolute;
+  top:55px;
 }
-
+img.cent-pic{
+  left: 24px;
+}
 .link-img {
   position: absolute;
   color: black;
-  
 }
-
 .read-more1 a:hover{
   color: blue;
 }
