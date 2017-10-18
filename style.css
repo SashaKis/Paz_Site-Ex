@@ -62,11 +62,9 @@ body {
     padding: 0;
     margin: 0;
   }
-
   .horizontal ul li {
     display: inline;
   }
-
   .horizontal ul li a {
     text-decoration: none;
     color: white;
@@ -74,9 +72,6 @@ body {
     padding: 3px 15px 3px 15px;
     font-size: 14px;
   }
- /* .horizontal ul li > a {
-    border-left: 2px solid white;
-    }*/
 .line {
     border-left: 2px solid white;
     }
@@ -89,9 +84,6 @@ body {
   .dropdown-menu {
     position: relative;
   } 
-  .dropdown-menu .caret {
-    font-size: 60%;
-  }
   .dropdown-menu:hover .dropdown-content {
     display: block;
   }
