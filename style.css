@@ -71,13 +71,17 @@ body {
     text-decoration: none;
     color: white;
     display: inline-block;
-    padding: 3px 10px 3px 10px;
+    padding: 3px 15px 3px 15px;
     font-size: 14px;
   }
-  .horizontal ul li > a {
+ /* .horizontal ul li > a {
     border-left: 2px solid white;
-}
-  .horizontal ul li a:hover {
+    }*/
+.line {
+    border-left: 2px solid white;
+    }
+    
+    .horizontal ul li a:hover {
    background-color: grey;
    color: blue;
    text-decoration: underline;
@@ -108,9 +112,12 @@ body {
   }
   #home {
     right: 0px;
-    width:16px;
-    background: url('images/menu_home.png') -50px 0;
-    
+   /* width:17px;*/
+    background: url('images/menu_home.png') -17px 0;
+    background-repeat: no-repeat;
+}
+.home-icon{
+    width: 17px;
 }
 .paz-logo{
   position: absolute;
