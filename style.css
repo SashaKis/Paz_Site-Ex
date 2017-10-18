@@ -24,6 +24,8 @@ body {
 
 .search-box a{
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 .search-icon{
  display: inline-block;
@@ -42,7 +44,7 @@ body {
 }
 #id-menu {
     margin-right: 150px;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .main_header {
@@ -59,7 +61,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-   /*padding-top: 60px;*/
   }
 
   .horizontal ul li {
@@ -70,10 +71,12 @@ body {
     text-decoration: none;
     color: white;
     display: inline-block;
-    padding: 10px;
+    padding: 3px 10px 3px 10px;
     font-size: 14px;
   }
-  
+  .horizontal ul li > a {
+    border-left: 2px solid white;
+}
   .horizontal ul li a:hover {
    background-color: grey;
    color: blue;
@@ -105,9 +108,9 @@ body {
   }
   #home {
     right: 0px;
-    background: url('images/menu_home.png');
-    padding: 0;
-    width:17px;
+    width:16px;
+    background: url('images/menu_home.png') -50px 0;
+    
 }
 .paz-logo{
   position: absolute;
@@ -191,7 +194,16 @@ body {
   text-align: left;
   top: 140px;
   left:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
+.read-more1 a{
+    color:grey;
+}
+.read-more1 a:hover{
+    color: blue;
+  }
+  
 .cent-pic{
   position: absolute;
   top:55px;
@@ -202,9 +214,6 @@ img.cent-pic{
 .link-img {
   position: absolute;
   color: black;
-}
-.read-more1 a:hover{
-  color: blue;
 }
 .position_relative{
     position: relative;
@@ -219,22 +228,41 @@ img.cent-pic{
 }
 
 .small-menu li{
-padding-bottom: 5px;
+padding-bottom: 7px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color:grey;
 }
+.small-menu a:hover{
+    color: blue;
+  }
+
+.change-pic{
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    top:55px;
+    left:20px;
+}
+
 .footer-des{
     bottom: 0;
     height: 38px;
     background-color: grey;
 }
 .footer-menu{
-    width: 900px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 } 
+.footer-menu ul{    
+    padding-top: 10px;
+    margin-right: 250px;
+}
  #facebook {
     right: 0px;
     background: url('images/fb_icon.png');
+    background-repeat: no-repeat;
     padding: 0;
     width:17px;
     font-size: 17px;
