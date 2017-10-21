@@ -92,7 +92,6 @@ body {
     display: none;
     background-color: grey;
     position: absolute;
-    
     right: 0;
     margin-top: 0;
     color: blue;
@@ -102,7 +101,9 @@ body {
     color: black;
     display: block;
     padding: 10px;
+    border-bottom: 1px solid white;
   }
+
   #home {
     right: 0px;
    /* width:17px;*/
