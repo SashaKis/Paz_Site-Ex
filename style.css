@@ -106,7 +106,6 @@ body {
 
   #home {
     right: 0px;
-   /* width:17px;*/
     background: url('images/menu_home.png') -17px 0;
     background-repeat: no-repeat;
 }
@@ -149,8 +148,7 @@ body {
   right: 16px;
   width: 80%;
   border-bottom-right-radius: 20px;
-  /*background-color: grey;*/
-  background-color: rgba(144, 144, 144, 0.8);
+  background-color: rgba(144, 144, 144, 0.9);
   font-size: 13px;
   color: white;
 }
