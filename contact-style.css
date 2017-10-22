@@ -68,6 +68,19 @@ body {
     right: 80px;
     font-size: 13px;
   }
+  .text-place-con p{
+    margin-top: 0;
+}
+
+  .text-place-con h4{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.form-position{
+    position: absolute;
+    bottom: 0;
+}
 
 .footer-des{
     bottom: 0;
