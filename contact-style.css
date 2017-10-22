@@ -62,6 +62,13 @@ body {
   .text-place-contact p{
       margin-top: 0;
   }
+  .text-place-contact a{
+    text-decoration: none;
+  }
+  .text-place-contact a:hover{
+    text-decoration: underline;
+    color:violet;
+  }
   .text-place-con{
     position: absolute;
     top: 20px;
@@ -76,6 +83,7 @@ body {
     margin-bottom: 0;
     margin-top: 0;
 }
+
 
 .form-position{
     position: absolute;
@@ -103,7 +111,8 @@ textarea {
     background-color: rgb(5,149,215);
     margin-right: 250px;
 }
-.footer-des{
+.footer-des-contact{
+    position:fixed;
     bottom: 0;
     height: 38px;
     background-color: grey;
