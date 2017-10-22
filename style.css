@@ -160,16 +160,21 @@ body {
   margin: 5px 0 5px 0;
   padding: 0 10px 0 10px;
 }
+
 .read-more a{
   float: left;
   color:white;
 }
 .read-more a:hover{
   color: blue;
+  background-image: url(images/read_more_blue.png);
+  background-repeat: no-repeat;
 }
 .read-more img{
   width: 8px;
   padding-right: 2px;
+  background-image: url(images/read_more_white.png);
+  background-repeat: no-repeat;
 }
 .with-pic{
   background: url(images/small_cube_bg.png);
@@ -241,9 +246,17 @@ color:grey;
     position: absolute;
     width: 250px;
     height: 110px;
-    top:55px;
+    top:0;
     left:20px;
+    padding: 0;
 }
+.change-pic h3{
+padding-top: 7px;
+}
+
+.change-pic img{
+  padding-top: 20px;
+  }
 
 .footer-des{
     bottom: 0;
