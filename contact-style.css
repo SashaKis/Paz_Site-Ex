@@ -79,9 +79,30 @@ body {
 
 .form-position{
     position: absolute;
-    bottom: 0;
+    top: 120px;
+    left: 0;
+    width: 400px;
+    border: 1px solid ##808992;
 }
-
+.form-position ul{
+    list-style: none;
+    font-size: 12px;   
+}
+label {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+  }
+  .form-position ul li{
+   padding: 2px;
+}
+textarea {
+    font: 12px Arial;
+}
+.button_send{
+    background-color: rgb(5,149,215);
+    margin-right: 250px;
+}
 .footer-des{
     bottom: 0;
     height: 38px;

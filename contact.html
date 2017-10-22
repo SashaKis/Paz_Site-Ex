@@ -95,7 +95,7 @@
 
         </header>
     </div>
-    <container>
+    <div>
         <header>
 
         </header>
@@ -125,7 +125,6 @@
                 </div>
             </div>
 
-
             <div class="flot-position size position_relative">
                 <img src="images/contact_form_bg.png" style="margin-right: 30px;padding-top: 20px;">
                 <div class="text-place-con">
@@ -133,41 +132,38 @@
                     <h4>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים <br>ואנו נשמח לעמוד לרשותכם :</h4>
                     <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
                 </div>
+
+                <form class="form-position">
+                    <ul>
+                        <li>
+                            <label  for="name">*שם פרטי</label>
+                            <input  type="text" name="fname" id="fname" />
+                        </li>
+                        <li>
+                            <label for="name">*שם משפחה</label>
+                            <input type="text" name="lname" id="lname" />
+                        </li>
+                        <li>
+                            <label for="name">*טלפון</label>
+                            <input type="text" name="phone_num" id="phone_num" />
+                        </li>
+                        <li>
+                            <label for="name">*E-Mail</label>
+                            <input type="text" name="email" id="email"/>
+                        </li>
+                        <li>
+                            <textarea id="comments" name="comments" rows="5" cols="37" maxlength="150" placeholder="תוכן הפנייה"></textarea>
+                        </li>
+                    </ul>
+                    <button class="button_send" type="submit">שלח</button>
+                </form>
             </div>
-            <form >
-                <ul>
-                    <li>
-                        <label for="name">*שם פרטי</label>
-                        <input type="text" name="fname" id="fname" />
-                    </li>
-                    <li>
-                        <label for="name">*שם משפחה</label>
-                        <input type="text" name="lname" id="lname" />
-                    </li>
-                    <li>
-                        <label for="name">*טלפון</label>
-                        <input type="text" name="phone_num" id="phone_num" />
-                    </li>
-                    <li>
-                        <label for="name">*E-Mail</label>
-                        <input type="text" name="email" id="email"/>
-                    </li>
-                    <li>
-                        <textarea id="comments" name="comments" rows="5" cols="30" maxlength="150" placeholder="תוכן הפנייה"></textarea>
-                    </li>
-                </ul>
-            </form>
         </article>
+    </div>
 
 
-    </container>
-
-
-
-
-
-
-    <footer class="footer-des">
+    <!--
+  <footer class="footer-des">
         <nav class="horizontal footer-menu">
             <ul>
                 <li id="facebook"><a href="#"></a></li>
@@ -183,7 +179,13 @@
             </ul>
         </nav>
     </footer>
+-->
 
+
+
+
+
+  
 </body>
 
 </html>
