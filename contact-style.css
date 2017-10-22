@@ -112,8 +112,8 @@ textarea {
     margin-right: 250px;
 }
 .footer-des-contact{
-    position:fixed;
-    bottom: 0;
+   /* position:fixed;*/
     height: 38px;
     background-color: grey;
+    clear: both;
 }
