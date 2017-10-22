@@ -33,13 +33,32 @@ body {
     margin: auto;
 }
 .first-columb{
-    width: 122px;
-    height:36px;
     margin-right: 420px;
     margin-top: 50px;
+    height: 50px;
 }
+.text-horizontal ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        height: 40px;
+      }
+.text-horizontal ul li {
+        display: inline;
+}
+
+.text-horizontal ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px;
+}
+
 #contact-side{
-    background: url("images/side_menu_sprite.png") -130px 0;
+    background: url("images/side_menu_sprite.png") -122px -5px;
     background-repeat: no-repeat;
 }
 .flot-position{
