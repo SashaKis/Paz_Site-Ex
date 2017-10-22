@@ -33,10 +33,14 @@ body {
     margin: auto;
 }
 .first-columb{
-    width: 100px;
-    height:30px;
-    margin-right: 50px;
+    width: 122px;
+    height:36px;
+    margin-right: 420px;
     margin-top: 50px;
+}
+#contact-side{
+    background: url("images/side_menu_sprite.png") -130px 0;
+    background-repeat: no-repeat;
 }
 .flot-position{
     float: left;
@@ -84,7 +88,9 @@ body {
     margin-top: 0;
 }
 
-
+.link-place{
+    margin-right: 20px;
+}
 .form-position{
     position: absolute;
     top: 120px;
@@ -111,6 +117,7 @@ textarea {
     background-color: rgb(5,149,215);
     margin-right: 250px;
 }
+
 .footer-des-contact{
    /* position:fixed;*/
     height: 38px;
