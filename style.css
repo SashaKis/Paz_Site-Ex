@@ -164,18 +164,15 @@ body {
 .read-more a{
   float: left;
   color:white;
+  background: url(images/read_more_white.png); 
+  background-repeat: no-repeat;
 }
 .read-more a:hover{
   color: blue;
   background-image: url(images/read_more_blue.png);
   background-repeat: no-repeat;
 }
-.read-more img{
-  width: 8px;
-  padding-right: 2px;
-  background-image: url(images/read_more_white.png);
-  background-repeat: no-repeat;
-}
+
 .with-pic{
   background: url(images/small_cube_bg.png);
   background-repeat: no-repeat;
