@@ -18,7 +18,7 @@ body {
 }
 #home-grey {
     right: 0px;
-    background: url('images/menu_home.png') 13px 0;
+    background: url('images/menu_home.png') 17px 0;
     background-repeat: no-repeat;
 }
 .size{
@@ -36,6 +36,7 @@ body {
     margin-right: 420px;
     margin-top: 50px;
     height: 50px;
+    position: relative;
 }
 .text-horizontal ul {
         list-style: none;
@@ -43,7 +44,7 @@ body {
         margin: 0;
         height: 40px;
       }
-.text-horizontal ul li {
+      .text-horizontal ul li {
         display: inline;
 }
 
@@ -57,9 +58,16 @@ body {
     padding: 10px;
 }
 
-#contact-side{
+.text-horizontal ul li:first-child{
+    display: block;
+    width: 122px;
+    min-height: 36px;
     background: url("images/side_menu_sprite.png") -122px -5px;
     background-repeat: no-repeat;
+}
+
+.small-text{
+font-size: 12px;
 }
 .flot-position{
     float: left;
@@ -106,16 +114,12 @@ body {
     margin-bottom: 0;
     margin-top: 0;
 }
-
-.link-place{
-    margin-right: 20px;
-}
 .form-position{
     position: absolute;
     top: 120px;
     left: 0;
     width: 400px;
-    border: 1px solid ##808992;
+   /* border: 1px solid ##808992;*/
 }
 .form-position ul{
     list-style: none;
@@ -131,6 +135,7 @@ label {
 }
 textarea {
     font: 12px Arial;
+    overflow: hidden;
 }
 .button_send{
     background-color: rgb(5,149,215);
